@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74CCBA01AA0EE480084618F /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B74CCB9F1AA0EE480084618F /* DataClass.m */; };
+		B74CCBB71AA10E290084618F /* wof_applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB11AA10E290084618F /* wof_applause.mp3 */; };
+		B74CCBB81AA10E290084618F /* wof_buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB21AA10E290084618F /* wof_buzz.mp3 */; };
+		B74CCBB91AA10E290084618F /* wof_ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB31AA10E290084618F /* wof_ding.mp3 */; };
+		B74CCBBA1AA10E290084618F /* wof_double_buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB41AA10E290084618F /* wof_double_buzz.mp3 */; };
+		B74CCBBB1AA10E290084618F /* wof_final_spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB51AA10E290084618F /* wof_final_spin.mp3 */; };
+		B74CCBBC1AA10E290084618F /* wof_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74CCBB61AA10E290084618F /* wof_theme.mp3 */; };
+		B74CCBBE1AA19F3D0084618F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74CCBBD1AA19F3D0084618F /* AVFoundation.framework */; };
+		B7F7DA341A9FBEED00FFB45F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA331A9FBEED00FFB45F /* main.m */; };
+		B7F7DA371A9FBEED00FFB45F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA361A9FBEED00FFB45F /* AppDelegate.m */; };
+		B7F7DA3D1A9FBEED00FFB45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F7DA3B1A9FBEED00FFB45F /* Main.storyboard */; };
+		B7F7DA3F1A9FBEED00FFB45F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F7DA3E1A9FBEED00FFB45F /* Images.xcassets */; };
+		B7F7DA421A9FBEED00FFB45F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F7DA401A9FBEED00FFB45F /* LaunchScreen.xib */; };
+		B7F7DA4E1A9FBEED00FFB45F /* WoFiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA4D1A9FBEED00FFB45F /* WoFiOSTests.m */; };
+		B7F7DA5B1A9FCB3300FFB45F /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA5A1A9FCB3300FFB45F /* WelcomeViewController.m */; };
+		B7F7DA5E1A9FCB4400FFB45F /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA5D1A9FCB4400FFB45F /* SetupViewController.m */; };
+		B7F7DA611A9FCB5300FFB45F /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7DA601A9FCB5300FFB45F /* PlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F7DA481A9FBEED00FFB45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F7DA261A9FBEED00FFB45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F7DA2D1A9FBEED00FFB45F;
+			remoteInfo = WoFiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B74CCB9E1AA0EE480084618F /* DataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		B74CCB9F1AA0EE480084618F /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
+		B74CCBB11AA10E290084618F /* wof_applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_applause.mp3; path = Sounds/wof_applause.mp3; sourceTree = "<group>"; };
+		B74CCBB21AA10E290084618F /* wof_buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_buzz.mp3; path = Sounds/wof_buzz.mp3; sourceTree = "<group>"; };
+		B74CCBB31AA10E290084618F /* wof_ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_ding.mp3; path = Sounds/wof_ding.mp3; sourceTree = "<group>"; };
+		B74CCBB41AA10E290084618F /* wof_double_buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_double_buzz.mp3; path = Sounds/wof_double_buzz.mp3; sourceTree = "<group>"; };
+		B74CCBB51AA10E290084618F /* wof_final_spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_final_spin.mp3; path = Sounds/wof_final_spin.mp3; sourceTree = "<group>"; };
+		B74CCBB61AA10E290084618F /* wof_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wof_theme.mp3; path = Sounds/wof_theme.mp3; sourceTree = "<group>"; };
+		B74CCBBD1AA19F3D0084618F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7F7DA2E1A9FBEED00FFB45F /* WoFiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoFiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F7DA321A9FBEED00FFB45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F7DA331A9FBEED00FFB45F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7F7DA351A9FBEED00FFB45F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7F7DA361A9FBEED00FFB45F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7F7DA3C1A9FBEED00FFB45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7F7DA3E1A9FBEED00FFB45F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7F7DA411A9FBEED00FFB45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7F7DA471A9FBEED00FFB45F /* WoFiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoFiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F7DA4C1A9FBEED00FFB45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F7DA4D1A9FBEED00FFB45F /* WoFiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoFiOSTests.m; sourceTree = "<group>"; };
+		B7F7DA591A9FCB3300FFB45F /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B7F7DA5A1A9FCB3300FFB45F /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		B7F7DA5C1A9FCB4400FFB45F /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		B7F7DA5D1A9FCB4400FFB45F /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		B7F7DA5F1A9FCB5300FFB45F /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		B7F7DA601A9FCB5300FFB45F /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F7DA2B1A9FBEED00FFB45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74CCBBE1AA19F3D0084618F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F7DA441A9FBEED00FFB45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74CCBA41AA10D940084618F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B74CCBB11AA10E290084618F /* wof_applause.mp3 */,
+				B74CCBB21AA10E290084618F /* wof_buzz.mp3 */,
+				B74CCBB31AA10E290084618F /* wof_ding.mp3 */,
+				B74CCBB41AA10E290084618F /* wof_double_buzz.mp3 */,
+				B74CCBB51AA10E290084618F /* wof_final_spin.mp3 */,
+				B74CCBB61AA10E290084618F /* wof_theme.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		B7F7DA251A9FBEED00FFB45F = {
+			isa = PBXGroup;
+			children = (
+				B74CCBBD1AA19F3D0084618F /* AVFoundation.framework */,
+				B7F7DA301A9FBEED00FFB45F /* WoFiOS */,
+				B7F7DA4A1A9FBEED00FFB45F /* WoFiOSTests */,
+				B7F7DA2F1A9FBEED00FFB45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F7DA2F1A9FBEED00FFB45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7DA2E1A9FBEED00FFB45F /* WoFiOS.app */,
+				B7F7DA471A9FBEED00FFB45F /* WoFiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F7DA301A9FBEED00FFB45F /* WoFiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7DA351A9FBEED00FFB45F /* AppDelegate.h */,
+				B7F7DA361A9FBEED00FFB45F /* AppDelegate.m */,
+				B74CCB9E1AA0EE480084618F /* DataClass.h */,
+				B74CCB9F1AA0EE480084618F /* DataClass.m */,
+				B7F7DA591A9FCB3300FFB45F /* WelcomeViewController.h */,
+				B7F7DA5A1A9FCB3300FFB45F /* WelcomeViewController.m */,
+				B7F7DA5C1A9FCB4400FFB45F /* SetupViewController.h */,
+				B7F7DA5D1A9FCB4400FFB45F /* SetupViewController.m */,
+				B7F7DA5F1A9FCB5300FFB45F /* PlayViewController.h */,
+				B7F7DA601A9FCB5300FFB45F /* PlayViewController.m */,
+				B7F7DA3B1A9FBEED00FFB45F /* Main.storyboard */,
+				B7F7DA3E1A9FBEED00FFB45F /* Images.xcassets */,
+				B7F7DA401A9FBEED00FFB45F /* LaunchScreen.xib */,
+				B74CCBA41AA10D940084618F /* Sounds */,
+				B7F7DA311A9FBEED00FFB45F /* Supporting Files */,
+			);
+			path = WoFiOS;
+			sourceTree = "<group>";
+		};
+		B7F7DA311A9FBEED00FFB45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7DA321A9FBEED00FFB45F /* Info.plist */,
+				B7F7DA331A9FBEED00FFB45F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7F7DA4A1A9FBEED00FFB45F /* WoFiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7DA4D1A9FBEED00FFB45F /* WoFiOSTests.m */,
+				B7F7DA4B1A9FBEED00FFB45F /* Supporting Files */,
+			);
+			path = WoFiOSTests;
+			sourceTree = "<group>";
+		};
+		B7F7DA4B1A9FBEED00FFB45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7DA4C1A9FBEED00FFB45F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F7DA2D1A9FBEED00FFB45F /* WoFiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F7DA511A9FBEED00FFB45F /* Build configuration list for PBXNativeTarget "WoFiOS" */;
+			buildPhases = (
+				B7F7DA2A1A9FBEED00FFB45F /* Sources */,
+				B7F7DA2B1A9FBEED00FFB45F /* Frameworks */,
+				B7F7DA2C1A9FBEED00FFB45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoFiOS;
+			productName = WoFiOS;
+			productReference = B7F7DA2E1A9FBEED00FFB45F /* WoFiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7F7DA461A9FBEED00FFB45F /* WoFiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F7DA541A9FBEED00FFB45F /* Build configuration list for PBXNativeTarget "WoFiOSTests" */;
+			buildPhases = (
+				B7F7DA431A9FBEED00FFB45F /* Sources */,
+				B7F7DA441A9FBEED00FFB45F /* Frameworks */,
+				B7F7DA451A9FBEED00FFB45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F7DA491A9FBEED00FFB45F /* PBXTargetDependency */,
+			);
+			name = WoFiOSTests;
+			productName = WoFiOSTests;
+			productReference = B7F7DA471A9FBEED00FFB45F /* WoFiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F7DA261A9FBEED00FFB45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tim.Milne;
+				TargetAttributes = {
+					B7F7DA2D1A9FBEED00FFB45F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B7F7DA461A9FBEED00FFB45F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B7F7DA2D1A9FBEED00FFB45F;
+					};
+				};
+			};
+			buildConfigurationList = B7F7DA291A9FBEED00FFB45F /* Build configuration list for PBXProject "WoFiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F7DA251A9FBEED00FFB45F;
+			productRefGroup = B7F7DA2F1A9FBEED00FFB45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F7DA2D1A9FBEED00FFB45F /* WoFiOS */,
+				B7F7DA461A9FBEED00FFB45F /* WoFiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F7DA2C1A9FBEED00FFB45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74CCBB71AA10E290084618F /* wof_applause.mp3 in Resources */,
+				B74CCBB91AA10E290084618F /* wof_ding.mp3 in Resources */,
+				B7F7DA3D1A9FBEED00FFB45F /* Main.storyboard in Resources */,
+				B74CCBBA1AA10E290084618F /* wof_double_buzz.mp3 in Resources */,
+				B7F7DA421A9FBEED00FFB45F /* LaunchScreen.xib in Resources */,
+				B7F7DA3F1A9FBEED00FFB45F /* Images.xcassets in Resources */,
+				B74CCBBB1AA10E290084618F /* wof_final_spin.mp3 in Resources */,
+				B74CCBB81AA10E290084618F /* wof_buzz.mp3 in Resources */,
+				B74CCBBC1AA10E290084618F /* wof_theme.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F7DA451A9FBEED00FFB45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F7DA2A1A9FBEED00FFB45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74CCBA01AA0EE480084618F /* DataClass.m in Sources */,
+				B7F7DA5E1A9FCB4400FFB45F /* SetupViewController.m in Sources */,
+				B7F7DA371A9FBEED00FFB45F /* AppDelegate.m in Sources */,
+				B7F7DA341A9FBEED00FFB45F /* main.m in Sources */,
+				B7F7DA611A9FCB5300FFB45F /* PlayViewController.m in Sources */,
+				B7F7DA5B1A9FCB3300FFB45F /* WelcomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F7DA431A9FBEED00FFB45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F7DA4E1A9FBEED00FFB45F /* WoFiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7F7DA491A9FBEED00FFB45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F7DA2D1A9FBEED00FFB45F /* WoFiOS */;
+			targetProxy = B7F7DA481A9FBEED00FFB45F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7F7DA3B1A9FBEED00FFB45F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F7DA3C1A9FBEED00FFB45F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7F7DA401A9FBEED00FFB45F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F7DA411A9FBEED00FFB45F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F7DA4F1A9FBEED00FFB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7F7DA501A9FBEED00FFB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F7DA521A9FBEED00FFB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoFiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7F7DA531A9FBEED00FFB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoFiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7F7DA551A9FBEED00FFB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoFiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoFiOS.app/WoFiOS";
+			};
+			name = Debug;
+		};
+		B7F7DA561A9FBEED00FFB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WoFiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoFiOS.app/WoFiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F7DA291A9FBEED00FFB45F /* Build configuration list for PBXProject "WoFiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F7DA4F1A9FBEED00FFB45F /* Debug */,
+				B7F7DA501A9FBEED00FFB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F7DA511A9FBEED00FFB45F /* Build configuration list for PBXNativeTarget "WoFiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F7DA521A9FBEED00FFB45F /* Debug */,
+				B7F7DA531A9FBEED00FFB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F7DA541A9FBEED00FFB45F /* Build configuration list for PBXNativeTarget "WoFiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F7DA551A9FBEED00FFB45F /* Debug */,
+				B7F7DA561A9FBEED00FFB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F7DA261A9FBEED00FFB45F /* Project object */;
+}
