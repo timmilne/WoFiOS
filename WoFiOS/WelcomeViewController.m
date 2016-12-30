@@ -25,7 +25,7 @@ AppDelegate *appDelegate;
     // Do any additional setup after loading the view.
  
     // Let's start some music
-    if (appDelegate == nil) appDelegate = [[UIApplication sharedApplication] delegate];
+    if (appDelegate == nil) appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     [appDelegate playSound:@"wof_theme"];
     
     // Translate the wheel

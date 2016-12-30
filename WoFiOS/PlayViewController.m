@@ -41,7 +41,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnN;
 @property (weak, nonatomic) IBOutlet UIButton *btnM;
 
-- (int)revealFoundLetters:(NSString *)letter;
+- (NSUInteger)revealFoundLetters:(NSString *)letter;
 
 @end
 
@@ -63,7 +63,7 @@ UIColor * black = nil;
     // Do any additional setup after loading the view.
     
     // Start a new round
-    if (appDelegate == nil) appDelegate = [[UIApplication sharedApplication] delegate];
+    if (appDelegate == nil) appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     [appDelegate playSound:@"wof_applause"];
     
     // Grab the data class
@@ -93,7 +93,7 @@ UIColor * black = nil;
     
     // Register the new guess
     [data.guessed setObject:@"YES" forKey:sender.titleLabel.text];
-    int numFound = [self revealFoundLetters:sender.titleLabel.text];
+    NSUInteger numFound = [self revealFoundLetters:sender.titleLabel.text];
     if (numFound > 0){
         // Play a ding for each letter found
         [appDelegate removeQueuedSounds];
@@ -110,10 +110,10 @@ UIColor * black = nil;
 //    [sender setUserInteractionEnabled:false];
 }
 
-- (int)revealFoundLetters:(NSString *) letter {
+- (NSUInteger)revealFoundLetters:(NSString *) letter {
     
     // Find the number with a search and replace
-    int numFound = 0;
+    NSUInteger numFound = 0;
     if (letter != nil){
         NSMutableString *tmp = [[NSMutableString alloc] initWithString:data.puzzle];
         numFound = [tmp replaceOccurrencesOfString:letter withString:@"-" options:NSBackwardsSearch range:NSMakeRange(0, [tmp length])];

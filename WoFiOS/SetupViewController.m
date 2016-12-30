@@ -30,7 +30,7 @@ extern AppDelegate *appDelegate;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    if (appDelegate == nil) appDelegate = [[UIApplication sharedApplication] delegate];
+    if (appDelegate == nil) appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
 
     // Grab the data class
     if (data == nil) data=[DataClass getInstance:TRUE];
