@@ -100,10 +100,10 @@
 		B7F7DA251A9FBEED00FFB45F = {
 			isa = PBXGroup;
 			children = (
-				B74CCBBD1AA19F3D0084618F /* AVFoundation.framework */,
 				B7F7DA301A9FBEED00FFB45F /* WoFiOS */,
 				B7F7DA4A1A9FBEED00FFB45F /* WoFiOSTests */,
 				B7F7DA2F1A9FBEED00FFB45F /* Products */,
+				B74CCBBD1AA19F3D0084618F /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
