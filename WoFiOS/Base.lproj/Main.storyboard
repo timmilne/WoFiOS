@@ -32,9 +32,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WoFWheel" translatesAutoresizingMaskIntoConstraints="NO" id="aVn-mS-yRN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WoFWheel" translatesAutoresizingMaskIntoConstraints="NO" id="aVn-mS-yRN">
                                 <rect key="frame" x="-34" y="100" width="600" height="600"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="Myj-TE-I0f"/>
+                                    <constraint firstAttribute="width" constant="600" id="WeO-x3-Kbt"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,8 +45,10 @@
                         <constraints>
                             <constraint firstItem="aCW-aG-vdw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="0bg-CH-4Gf"/>
                             <constraint firstItem="aCW-aG-vdw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="11" id="4A2-tl-bIt"/>
+                            <constraint firstItem="aVn-mS-yRN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-34" id="HoU-hz-Prx"/>
                             <constraint firstItem="qRv-lk-kFV" firstAttribute="top" secondItem="aCW-aG-vdw" secondAttribute="bottom" constant="8" id="hZt-Bq-S0d"/>
                             <constraint firstItem="qRv-lk-kFV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="o9b-eK-ZNr"/>
+                            <constraint firstItem="aVn-mS-yRN" firstAttribute="top" secondItem="qRv-lk-kFV" secondAttribute="bottom" constant="17" id="wxm-PW-Num"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="VT4-pg-Jm7" appends="YES" id="0XX-Eu-8MV"/>

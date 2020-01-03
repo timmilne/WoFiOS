@@ -27,6 +27,13 @@ AppDelegate *appDelegate;
     // Let's start some music
     if (appDelegate == nil) appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     [appDelegate playSound:@"wof_theme"];
+
+    // Spin the wheel - this one has a nice start and finish
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:4];
+    [UIView setAnimationBeginsFromCurrentState:YES];
+    CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI);
+    self.wheel.transform = transform;
     
     // Translate the wheel
     CABasicAnimation* translationAnimation;
@@ -38,13 +45,6 @@ AppDelegate *appDelegate;
     translationAnimation.repeatCount = 1;
     [self.wheel.layer addAnimation:translationAnimation forKey:@"translationAnimation"];
 
-    // Spin the wheel - this one has a nice start and finish
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:4];
-    [UIView setAnimationBeginsFromCurrentState:YES];
-    CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI);
-    self.wheel.transform = transform;
-    
     [UIView commitAnimations];
     
 /*
